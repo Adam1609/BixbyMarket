@@ -18,7 +18,7 @@ final class CategoryEditCommand extends PluginCommand{
 		parent::__construct("categoryedit", BixbyMarket::getInstance());
 		$this->setDescription("Edits the category");
 		$this->setPermission("bixbymarket.command.edit_category");
-		$this->setAliases(["ce"]);
+		$this->setAliases(["cedit"]);
 	}
 
 	public function execute(CommandSender $sender, string $commandLabel, array $args) : bool{
